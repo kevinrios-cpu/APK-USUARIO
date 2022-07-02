@@ -15,7 +15,7 @@ export class UserService extends ApiClass{
     data: ICardUser[]
   }> {
     const response = {error: false, msg: '', data:null};
-    return this.http.get<ICardUser[]>(this.url + 'user')
+    return this.http.get<ICardUser[]>(this.url + 'users')
     .pipe(
       map( r => {
         response.data = r;
