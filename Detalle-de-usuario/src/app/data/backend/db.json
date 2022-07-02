@@ -1,0 +1,40 @@
+{
+    "users":[
+        {
+            "id": 1,
+            "name": "Ivan Larios",
+            "age": 27,
+            "description": "Desarrrollador",
+            "avatar": "https://www.fundacion-affinity.org/sites/default/files/el-gato-necesita-tener-acceso-al-exterior.jpg",
+            "work": "maincraft doyu"
+          },
+          {
+            "id": 2,
+          "name": "Kevin Rios",
+            "age": 27,
+            "description": "jugador de maincraft",
+            "avatar": "https://www.fundacion-affinity.org/sites/default/files/el-gato-necesita-tener-acceso-al-exterior.jpg"
+          },
+          {
+            "id": 3,
+          "name": "Christian Morales",
+            "age": 27,
+            "description": "vendedor de cuchuflis",
+            "avatar": "https://www.fundacion-affinity.org/sites/default/files/el-gato-necesita-tener-acceso-al-exterior.jpg"
+          },
+          {
+            "id": 4,
+          "name": "Wazowsqui Brayan",
+            "age": 27,
+            "description": "agil con el lapiz",
+            "avatar": "https://www.fundacion-affinity.org/sites/default/files/el-gato-necesita-tener-acceso-al-exterior.jpg"
+          },
+          {
+            "id": 5,
+          "name": "El Pepe",
+            "age": 27,
+            "description": "cantante",
+            "avatar": "https://www.fundacion-affinity.org/sites/default/files/el-gato-necesita-tener-acceso-al-exterior.jpg"
+          }
+    ]
+}
