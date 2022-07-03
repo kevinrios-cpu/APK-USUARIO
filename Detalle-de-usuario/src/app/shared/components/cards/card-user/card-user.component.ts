@@ -18,8 +18,8 @@ export class CardUserComponent implements OnInit {
       const map = new mapboxgl.Map({
     container: 'mapa-mapbox', // container ID
     style: 'mapbox://styles/mapbox/streets-v11', // style URL
-    center: [-74.5, 40], // starting position [lng, lat]
-    zoom: 9 // starting zoom
+    center: [-70.7546298, -33.5114161], // starting position [lng, lat]
+    zoom: 16 // starting zoom
 });
     
   }
