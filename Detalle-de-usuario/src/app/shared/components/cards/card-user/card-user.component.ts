@@ -1,5 +1,7 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { ICardUser } from './icard-user.metadata';
+import * as mapboxgl from 'mapbox-gl';
+import { environment } from 'environments/environment';
+
 
 @Component({
   selector: 'app-card-user',
@@ -7,10 +9,19 @@ import { ICardUser } from './icard-user.metadata';
   styleUrls: ['./card-user.component.scss']
 })
 export class CardUserComponent implements OnInit {
-  @Input() data: ICardUser;
+
+
   constructor() { }
 
   ngOnInit() {
+    mapboxgl.accessToken = environment.mapboxKey
+      const map = new mapboxgl.Map({
+    container: 'mapa-mapbox', // container ID
+    style: 'mapbox://styles/mapbox/streets-v11', // style URL
+    center: [-74.5, 40], // starting position [lng, lat]
+    zoom: 9 // starting zoom
+});
+    
   }
 
 }
